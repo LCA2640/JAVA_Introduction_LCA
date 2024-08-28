@@ -5,7 +5,7 @@ public class Program {
         //your code goes here
         Scanner sc = new Scanner(System.in);
         int l = sc.nextInt();
-        int sum = 1; //Lo que va sumando
+        int sum = 0; //Lo que va sumando
         int n = 1;  // Contador
 
         while ( n < l ){

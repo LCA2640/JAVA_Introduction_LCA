@@ -1,0 +1,9 @@
+public class Program {
+    public static void main(String[] args) {
+        String label = "Balance";
+        float balance = 599.84f;
+
+        System.out.println(label);
+        System.out.println(balance);
+    }
+}

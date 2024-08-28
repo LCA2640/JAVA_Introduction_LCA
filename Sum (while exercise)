@@ -1,0 +1,19 @@
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        //your code goes here
+        Scanner sc = new Scanner(System.in);
+        int l = sc.nextInt();
+        int sum = 1; //Lo que va sumando
+        int n = 1;  // Contador
+
+        while ( n < l ){
+            sum += n; //Sumas el contenido del contador (que va de 1 a limite)
+            n++;  // Contador va subiendo hasta llegar al limite 
+        }
+
+        System.out.println(sum);
+    }
+
+}
